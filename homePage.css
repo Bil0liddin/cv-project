@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.profile-page {
+  background-image: url(assets/profileBackground.png);
+  background-size: cover;
+}
+.header {
+  padding: 50px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: white;
+  margin-left: 16px;
+}
+.header-right {
+  margin-top: 12px;
+}
+
+.about-heading {
+  margin-top: 200px;
+  width: 368px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  /* or 79px */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  width: 1260px;
+  margin: auto;
+}
+.about-info p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.49%;
+  /* or 30px */
+  letter-spacing: 0.01em;
+  color: #f7f7f7;
+  opacity: 0.9;
+  width: 354px;
+  margin-bottom: 54px;
+}
+.button{
+width: 198px;
+height: 60px;
+left: 337px;
+top: 605px;
+border: 1px solid #FBA820;
+border-radius: 33.5px;
+background-color: transparent;
+color: white;
+margin-bottom: 203px;
+}
+.button:hover{
+  background-color: #FBA820;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.icon-list{
+width: 438px;
+height: 17px;
+left: 337px;
+top: 868px;
+font-style: normal;
+font-weight: 90;
+font-size: 16px;
+line-height: 17px;
+letter-spacing: 1.265em;
+color: #ffffff;
+padding-bottom: 40px;
+}
+.icon-list i:hover{
+  background-color: #FBA820;
+  transition: 0.4s;
+}
+.aboutme{
+  width: 543px;
+  height: 75px;
+  left: 337px;
+  top: 1115px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 75px;
+  
+  color: #252525;
+  
+
+}
